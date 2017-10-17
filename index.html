@@ -5,38 +5,68 @@
     <title>Galaxie Music</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-      <style type="text/css">
-      body{background-image:url(fondgalax.png);
-      }
-      </style>
   <body>
     <header id="header">
       <div class="container">
-        <h1>
           Galaxie Music
-          <align="center" style="text-align: right;">
-                 <input class="input" type="search" placeholder="Ici on saisi" name="Rechercher">
-                 <br /> 
-        </h1>
+          <input class="input" type="search" placeholder="Ici on saisi" name="Rechercher">
+
+          <img class="astronaut" src="astronautcopie.png" alt="Mon compte">
+
+      <div class="menu">
+          Univers
+          <ul>
+          			<li class="menua"><a href="#">Genre</a></li>
+          			<li class="menub"><a href="#">Coups de coeur</a></li>
+          			<li class="menuc"><a href="#">Radio</a></li>
+          			<li class="menud"><a href="#">Ma playlist</a></li>
+         </ul>
+
+         <span id=“sl_play” class=“sl_command”></span>
+<span id=“sl_pause” class=“sl_command”></span>
+
+<span id=“sl_i1” class=“sl_command sl_i”></span>
+<span id=“sl_i2” class=“sl_command sl_i”></span>
+<span id=“sl_i3” class=“sl_command sl_i”></span>
+<span id=“sl_i4” class=“sl_command sl_i”></span>
+
+  <section id=“slideshow”>
+    <a class=“play_commands pause” href=“#sl_pause” title=“Maintain paused”>Pause</a>
+    <a class=“play_commands play” href=“#sl_play” title=“Play the animation”>Play</a>
+    <div class=“container”>
+        <div class=“c_slider”></div>
+        <div class=“slider”>
+            <figure>
+                <img src=“slide1.png” alt=“” width=“614” height=“310" />
+                <figcaption>Actualité</figcaption>
+
+            </figure><!--
+            --><figure>
+                <img src=“slide2.png” alt=“” width=“640” height=“310" />
+                <figcaption>Artiste du jour</figcaption>
+            </figure><!--
+            --><figure>
+                <img src=“img/dummy-640x310-3.jpg” alt=“” width=“640” height=“310" />
+                <figcaption>Top List<em>(do)</em> time</figcaption>
+
+            </figure><!--
+            --><figure>
+                <img src=“img/dummy-640x310-4.jpg” alt=“” width=“640” height=“310" />
+                <figcaption>Jeune talent</figcaption>
+            </figure>
         </div>
+    </div>
+    <span id=“timeline”></span>
+  <ul class=“dots_commands”><!--
+      --><li><a title=“Afficher la slide 1” href=“#sl_i1">Slide 1</a></li><!--
+      --><li><a title=“Afficher la slide 2” href=“#sl_i2">Slide 2</a></li><!--
+      --><li><a title=“Afficher la slide 3” href=“#sl_i3">Slide 3</a></li><!--
+      --><li><a title=“Afficher la slide 4” href=“#sl_i4">Slide 4</a></li>
+  </ul>
+
+</section>
+    </div>
+      </div>
     </header>
-    <ul id="menu-vertical">
-	<li><a href="#">Lien menu 1</a>
-		<ul>
-			<li><a href="#">lien sous menu 1</a></li>
-			<li><a href="#">lien sous menu 1</a></li>
-			<li><a href="#">lien sous menu 1</a></li>
-			<li><a href="#">lien sous menu 1</a></li>
-		</ul>
-	</li><!--
- --><li><a href="#">Lien menu 2</a>
-		<ul>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-			<li><a href="#">Lien sous menu 2</a></li>
-		</ul>
-	</li>
-</ul>
   </body>
 </html>
