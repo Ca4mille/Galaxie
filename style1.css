@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  background-image:url(fonddef.png);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.container {
+  position: relative;
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 0;
+  width: 94%;
+  font-family: helvetica, sans-serif;
+}
+.astronaut{
+  display: flex;
+  width: 60px;
+  height: 60px;
+  margin-left: 1025px;
+  margin-top: -50px;
+  margin-right: auto;
+}
+.cosmosblanc{
+  display: flex;
+  width: 150px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-right: auto;
+}
+.logo{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  /*justify-content: center;*/
+  margin-left: auto;
+  margin-top: -80px;
+  margin-right: auto;
+}
+#header {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  line-height: 60px;
+  background-color: rgba(34, 34, 34, 0.8);
+  color: white;
+}
+.input{
+  /*margin-left:  710px;*/
+  display: flex;
+  margin-top: -110px;
+  margin-left: 1100px;
+  margin-right: auto;
+}
+.menu{
+  display: flex;
+  /*text-align: center;*/
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: rgba(200, 194, 211, 0.5);
+  height: 700px;
+  width: 150px;
+  font-family: "Vonique64";
+  src: url("Vonique64.ttf");
+}
+.univers{
+  margin-left: 32px;
+  font-size: 20px;
+}
+.fond{
+  position:absolute;
+  padding-top:85px;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+ background-color:#black;
+}
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    width:175px;
+    height:56px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    margin-top: 50px;
+
+}
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+.lecteurs{
+  margin-top: 20px;
+}

@@ -2,42 +2,54 @@
 <html>
   <head>
     <title>Cosmos</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--Ajout du fichier CSS-->
+    <link rel="stylesheet" type="text/css" href="styleetoile.css">
+      <link rel='stylesheet' type='text/css'href="stylezoom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
-  <body>
-    <header id="header">
 
+    <header id="header">
       <div class="container">
-          Cosmos
-          <img class="logo" src="planet-earth.png" alt="Mon compte">
-          <input class="input" type="search" placeholder="Ici on saisi" name="Rechercher">
+          <img class="cosmosblanc" src="cosmosblanc.png" alt="Cosmos">
+          <a href="file:///Users/camilleguigra/Desktop/:codecamp/index.html#2"><img class="logo" src="logogalaxie.png" alt="Mon compte"> </a>
+          <input class="input" type="search" placeholder="Explorer" name="Rechercher">
           <img class="astronaut" src="astronautcopie.png" alt="Mon compte">
      </div>
-
-    <div class="menu">
-    Univers
-    <ul class="liens">
-          <li class="genre"><a href="#">Genre</a></li>
-          <li class="coupsdecoeur"><a href="#">Coups <3</a></li>
-          <li class="radio"><a href="#">Radio</a></li>
-          <li class="maplaylist"><a href="#">Ma playlist</a></li>
-   </ul>
-    </div>
-
-    <div class="contener_slideshow">
-      <div class="contener_slide">
-        <div class="slid_1"><img src="slide3.jpeg"></div>
-        <div class="slid_2"><img src="slide4.jpeg"></div>
-        <div class="slid_3"><img src="vignette.png"></div>
-     </div>
-    </div>
-    <div class="lecteurs">
-      <iframe src="https://open.spotify.com/embed/track/0uBu60Wd7yzm2sFrj2hSr6" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
-      <iframe src="https://open.spotify.com/embed/track/1vVZLmZq8gN8pPCEBLjPvD" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
-      <iframe src="https://open.spotify.com/embed/track/37YNulvDhyzULfhHycmhEl" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
-   </div>
     </header>
+  </body>
+     <div class="menu">
+         <p class="univers">Univers</p>
+          <a href="file:///Users/camilleguigra/Desktop/:codecamp/index1.html">
+          <img class="im1" src="uranus.png" alt="test1" width="60" height="60"></img></a>
+          <p class="mesmusiques">Mes musiques</p>
+          <img class="im2" src="sunny.png" alt="test1" width="60" height="60"></img>
+          <img class="im3" src="moon.png" alt="test1" width="60" height="60"></img>
+          <img class="im4" src="saturn.png" alt="test1" width="60" height="60"></img>
+          <img class="im5" src="jupiter.png" alt="test1" width="60" height="60"></img>
+       </div>
+
+        <div class="contener_slideshow">
+          <div class="contener_slide">
+            <div class="slid_1"><img src="slider1.png" width="800px" height="300px"></div>
+            <div class="slid_2"><img src="slider2.png" width="800px" height="300px"></div>
+            <div class="slid_3"><img src="slider3.png" width="800px" height="300px"></div>
+         </div>
+        </div>
+
+        <div class="lecteurs">
+          <iframe src="https://open.spotify.com/embed/track/0uBu60Wd7yzm2sFrj2hSr6" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/1vVZLmZq8gN8pPCEBLjPvD" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/37YNulvDhyzULfhHycmhEl" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
+       </div>
+
+        <div class="rating">
+           <a href="#5" title="Donner 5 étoiles">☆</a>  <!--Problème de placement des étoiles / Visisble que dans le hearder!-->
+           <a href="#4" title="Donner 4 étoiles">☆</a>
+           <a href="#3" title="Donner 3 étoiles">☆</a>
+           <a href="#2" title="Donner 2 étoiles">☆</a>
+           <a href="#1" title="Donner 1 étoile">☆</a>
+      </div>
+
   </body>
 </html>

@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background-image:url(fondnoir.png);
+  background-image:url(fonddef.png);
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,41 +18,42 @@ body {
 }
 .astronaut{
   display: flex;
-  width: 40px;
-  height: 40px;
-  margin-left: 1050px;
-  margin-top: -35px;
+  width: 60px;
+  height: 60px;
+  margin-left: 1025px;
+  margin-top: -50px;
+  margin-right: auto;
+}
+.cosmosblanc{
+  display: flex;
+  width: 150px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 30px;
   margin-right: auto;
 }
 .logo{
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   display: flex;
   /*justify-content: center;*/
   margin-left: auto;
-  margin-top: -50px;
+  margin-top: -80px;
   margin-right: auto;
 }
 #header {
   z-index: 2;
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 100px;
   line-height: 60px;
-  background: #222;
+  background-color: rgba(34, 34, 34, 0.5);
   color: white;
-}
-#header h1 {
-  top: 0px;
-  margin: 0px;
-  padding: 1px;
-  text-transform: uppercase;
-  font-size: 1.2em;
 }
 .input{
   /*margin-left:  710px;*/
   display: flex;
-  margin-top: -90px;
+  margin-top: -110px;
   margin-left: 1100px;
   margin-right: auto;
 }
@@ -61,31 +62,23 @@ body {
   /*text-align: center;*/
   margin-left: 0px;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 0px;
   background-color: rgba(200, 194, 211, 0.5);
   height: 700px;
-  width: 100px;
-  font-family: antipasto, sans-serif;
+  width: 150px;
+  font-family: "Vonique64";
+  src: url("Vonique64.ttf");
 }
-.radio{
-  display: flex;
-  margin-left: -51px;
+.mesmusiques{
+  margin-top: 95px;
   margin-right: auto;
+  margin-left: auto;
+  font-size: 12px;
+  text-align: left;
 }
-.genre{
-  display: flex;
-  margin-left: -51px;
-  margin-right: auto;
-}
-.coupsdecoeur{
-  display: flex;
-  margin-left: -70px;
-  margin-right: auto;
-}
-.maplaylist{
-  display: flex;
-  margin-left: -65px;
-  margin-right: auto;
+.univers{
+  margin-left: 32px;
+  font-size: 20px;
 }
 .contener_slideshow
 {
@@ -95,7 +88,7 @@ body {
   overflow: hidden;
   position: relative;
   background-image: url(slide3.png);
-  margin-top: -700px;
+  margin-top: -600px;
   margin-left: auto;
   margin-right: auto;
   background: #FFF;
@@ -103,25 +96,23 @@ body {
 	border-radius: 2px 2px 2px 2px;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
 }
-.slid_1
-{
-  position: absolute;
-  width:400px;
-  height:150px;
-}
+.slid_1{
+  left:0px;}
+
 .slid_2{
-  position: absolute;
-  width:400px;
-  height:150px;
+  display: flex;
+  left:305px;
+  margin-top: -324px;
+  margin-left: 800px;
+  margin-right: auto;
 }
 .slid_3{
-  position: absolute;
-  width:400px;
-  height:150px;
+  display: flex;
+  left:610px;
+  margin-top: -300px;
+  margin-left: 1600px;
+  margin-right: auto;
 }
-.slid_1{left:2 0;}
-.slid_2{left: 610px;}
-.slid_3{left: 1220px;}
 
 .contener_slide
 {
@@ -181,7 +172,8 @@ body {
 .lecteurs{
   display: flex;
   /*justify-content: center;*/
-  margin-left: 130px;
+  margin-left: 330px;
   margin-top: 10px;
   margin-right: auto;
+
 }
