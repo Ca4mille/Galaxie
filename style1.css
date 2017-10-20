@@ -1,4 +1,4 @@
-body {
+body { /*Design Pages Filles*/
   background-color: black;
   background-image:url(fonddef.png);
   margin: 0;
@@ -57,31 +57,6 @@ body {
   margin-left: 1100px;
   margin-right: auto;
 }
-.menu{
-  display: flex;
-  /*text-align: center;*/
-  margin-left: 0px;
-  margin-right: auto;
-  margin-top: 30px;
-  background-color: rgba(200, 194, 211, 0.5);
-  height: 700px;
-  width: 150px;
-  font-family: "Vonique64";
-  src: url("Vonique64.ttf");
-}
-.univers{
-  margin-left: 32px;
-  font-size: 20px;
-}
-.fond{
-  position:absolute;
-  padding-top:85px;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
- background-color:#black;
-}
 
 .style_prevu_kit
 {
@@ -98,7 +73,12 @@ body {
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
-    margin-top: 50px;
+    margin-top: 130px;
+    font-family: helvetica,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
 
 }
 .style_prevu_kit:hover
@@ -114,6 +94,35 @@ body {
     transition: all 200ms ease-in;
     transform: scale(1.5);
 }
-.lecteurs{
-  margin-top: 20px;
+
+.lecteurs {
+  display: inline-block;
+  background-color: #333;
+  margin-top: 10px;
+
+}
+
+.lecteurs :hover {
+  background-color: #777;
+}
+.playlist{
+  border: 2px dotted white;
+}
+
+.playlist{
+  margin: auto;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.playlist:hover
+{
+  transform: scale(1.1);
+}
+.actu2{
+  color: white;
+  font-size: 25px;
+  font-family: "Vonique64";
+  src: url("Vonique64.ttf");
+  margin-left: 0px;
 }

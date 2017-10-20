@@ -1,184 +1,65 @@
-.im1
-{
-    display:inline-block;
-    border:0;
-    width:50px;
-    height:50px;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    margin-top: 150px;
-    margin-left: -50px;
-
+.im1{
+  margin-left: 50px;
+  margin-top: 10px;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
+
 .im1:hover
 {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  transform: scale(1.75);
 }
-.im2
-{
-    display:inline-block;
-    border:0;
-    width:50px;
-    height:50px;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    margin-top: 160px;
-    margin-left: -50px;
 
+.im2{
+  margin: auto;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
+
 .im2:hover
 {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  transform: scale(1.75);
 }
-.im3
-{
-    display:inline-block;
-    border:0;
-    width:45px;
-    height:45px;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    margin-top: 220px;
-    margin-left: -45px;
+
+.im3{
+  margin: auto;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
+
 .im3:hover
 {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  transform: scale(1.75);
 }
-.im4
-{
-    display:inline-block;
-    border:0;
-    width:45px;
-    height:45px;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    margin-top: 280px;
-    margin-left: -45px;
 
+.im4{
+  margin: auto;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
+
 .im4:hover
 {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  transform: scale(1.75);
 }
-.im5
-{
-    display:inline-block;
-    border:0;
-    width:45px;
-    height:45px;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    margin-top: 340px;
-    margin-left: -45px;
 
+.im5{
+  margin: auto;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
+
 .im5:hover
 {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  transform: scale(1.75);
+}
+.im6{
+  margin: auto;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 
-.logo
+.im6:hover
 {
-    display:flex;
-    border:0;
-    width:80px;
-    height:80px;
-    position: relative;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-
-}
-.logo:hover
-{
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  transform: scale(1.75);
 }

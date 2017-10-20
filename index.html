@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>Cosmos</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> <!--Ajout du fichier CSS-->
-    <link rel="stylesheet" type="text/css" href="styleetoile.css">
-      <link rel='stylesheet' type='text/css'href="stylezoom.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--Ajout des fichier CSS-->
+    <link rel='stylesheet' type='text/css'href="stylezoom.css">
+    <link rel="stylesheet" type="text/css" href="carroussel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <!--Ajout du fichier jquery-->
+    <script src="script.js"></script> <!--Ajout du fichier JS-->
   </head>
 
-    <header id="header">
+    <header id="header">  <!--Header avec Titre , Logo  qui renvoie sur la home page , Barre de recherche-->
       <div class="container">
           <img class="cosmosblanc" src="cosmosblanc.png" alt="Cosmos">
           <a href="file:///Users/camilleguigra/Desktop/:codecamp/index.html#2"><img class="logo" src="logogalaxie.png" alt="Mon compte"> </a>
@@ -18,38 +18,43 @@
      </div>
     </header>
   </body>
-     <div class="menu">
-         <p class="univers">Univers</p>
-          <a href="file:///Users/camilleguigra/Desktop/:codecamp/index1.html">
-          <img class="im1" src="uranus.png" alt="test1" width="60" height="60"></img></a>
-          <p class="mesmusiques">Mes musiques</p>
-          <img class="im2" src="sunny.png" alt="test1" width="60" height="60"></img>
-          <img class="im3" src="moon.png" alt="test1" width="60" height="60"></img>
-          <img class="im4" src="saturn.png" alt="test1" width="60" height="60"></img>
-          <img class="im5" src="jupiter.png" alt="test1" width="60" height="60"></img>
+     <div class="menu">  <!-- Block Menu avec icons et liens vers les pages flles -->
+       <p class="univers"> <br>Univers</p>
+       <a href="file:///Users/camilleguigra/Desktop/:codecamp/index1.html"><img class="im1" src="uranus.png" alt="test1" width="80" height="80"></img>  </a>
+       <a href="file:///Users/camilleguigra/Desktop/:codecamp/index2.html"><img class="im1" src="sunny.png" alt="test1" width="80" height="80"></img> </a>
+       <a href="file:///Users/camilleguigra/Desktop/:codecamp/index3.html"><img class="im1" src="moon.png" alt="test1" width="80" height="80"></img> </a><br>
+       <a href="file:///Users/camilleguigra/Desktop/:codecamp/index4.html"><img class="im1" src="saturn.png" alt="test1" width="80" height="80"></img> </a><br>
+       <a href="file:///Users/camilleguigra/Desktop/:codecamp/index5.html"><img class="im1" src="jupiter.png" alt="test1" width="80" height="80"></img> </a><br>
+       <a href="file:///Users/camilleguigra/Desktop/:codecamp/index6.html"><img class="im1" src="venus.png" alt="test1" width="80" height="80"></img> </a>
+     </div>
+        <div id="slider"> <!--Slide du caroussel-->
+          <figure>
+            <img src="slider1.png" alt>
+            <img src="slider2.png" alt>
+            <img src="slider3.png" alt>
+          </figure>
        </div>
 
-        <div class="contener_slideshow">
-          <div class="contener_slide">
-            <div class="slid_1"><img src="slider1.png" width="800px" height="300px"></div>
-            <div class="slid_2"><img src="slider2.png" width="800px" height="300px"></div>
-            <div class="slid_3"><img src="slider3.png" width="800px" height="300px"></div>
-         </div>
-        </div>
+        <HR size=2 align=center width="65%">  <!--bandeau de séparation-->
 
-        <div class="lecteurs">
+        <p= class ="top"> Top list</p> <!-- Liens de lecteurs spotify-->
+        <div class="lecteurs1">
           <iframe src="https://open.spotify.com/embed/track/0uBu60Wd7yzm2sFrj2hSr6" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
           <iframe src="https://open.spotify.com/embed/track/1vVZLmZq8gN8pPCEBLjPvD" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
           <iframe src="https://open.spotify.com/embed/track/37YNulvDhyzULfhHycmhEl" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
        </div>
-
-        <div class="rating">
-           <a href="#5" title="Donner 5 étoiles">☆</a>  <!--Problème de placement des étoiles / Visisble que dans le hearder!-->
-           <a href="#4" title="Donner 4 étoiles">☆</a>
-           <a href="#3" title="Donner 3 étoiles">☆</a>
-           <a href="#2" title="Donner 2 étoiles">☆</a>
-           <a href="#1" title="Donner 1 étoile">☆</a>
-      </div>
-
+          <br>
+        <div class="lecteurs2">
+          <iframe src="https://open.spotify.com/embed/track/7wGoVu4Dady5GV0Sv4UIsx" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/6xcXAVbDuVT1pCsa2rmDHY" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/2r6C2IEw533mDs3sam5Zxx" width="200" height="254" frameborder="0" allowtransparency="true"></iframe>
+       </div>
+         <HR class="barre" size=2 align=center width="65%"> <!--bandeau de séparation-->
+         <p= class ="Actu"> Actu</p>  <!--Images d'actualité-->
+        <div class="act">
+               <img src="kygo.png" alt="kygo" height="113" width="250">
+               <img src="martin.png" alt="martin" height="113" width="250">
+               <img src="dj.png" alt="dj" height="113" width="250">
+        </div>
   </body>
 </html>
